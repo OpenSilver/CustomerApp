@@ -39,7 +39,7 @@
     <Content Include="Views\MyUserControl.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <PackageReference Include="OpenSilver" Version="1.0.0" />
+    <PackageReference Include="OpenSilver" Version="2.1.0" />
     <Page Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
