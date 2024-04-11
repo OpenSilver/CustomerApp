@@ -32,8 +32,18 @@ namespace CustomerData
             new Customer { FirstName = "Robert",   LastName = "Feldman", Email = "robert2@opensilver.net",  IsMember = false },
             new Customer { FirstName = "Scarlett", LastName = "Koller",  Email = "scarlett@opensilver.net", IsMember = true },
             new Customer { FirstName = "Prag",     LastName = "Smith",   Email = "prag@opensilver.net",     IsMember = true },
-            new Customer { FirstName = "Lior",     LastName = "Field",   Email = "lior2@opensilver.net",    IsMember = false }
+            new Customer { FirstName = "Lior",     LastName = "Field",   Email = "lior2@opensilver.net",    IsMember = false },
+            new Customer { FirstName = "Arlyn",     LastName = "Emrys",   Email = "joephonics @y .com",    IsMember = false }
         };
+
+        /*
+        AE : Provided conversion of this package OpenSilver 1.0 to 2.1 on Windows 11
+        
+        minimum LTS packages required for Windows 11
+        .Simulator -> [.NET Framework 4.7.2] | .Browser -> AspNetCore WebAssembly [.NET 7.0]
+        
+        Hopefully this helps those trying to do conversions. -> /\ Arlyn Emrys -> merlin | joephonics | fahnix /\
+        // */
 
         public ObservableCollection<Customer> Customers { get; }
 

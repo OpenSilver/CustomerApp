@@ -20,6 +20,7 @@
     <StartURL>http://www.opensilver.net/permalinks/simulator_not_found.aspx</StartURL>
     <StartArguments Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">"..\..\..\CustomerApp\bin\Debug\netstandard2.0\CustomerApp.dll"</StartArguments>
     <StartArguments Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">"..\..\..\CustomerApp\bin\Release\netstandard2.0\CustomerApp.dll"</StartArguments>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

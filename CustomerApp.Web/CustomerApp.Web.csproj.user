@@ -3,6 +3,7 @@
   <PropertyGroup>
     <UseIISExpress>true</UseIISExpress>
     <SilverlightApplicationList>{23FEA9DE-E250-4D9B-B321-CB20CBC8C721}|..\CustomerApp\CustomerApp.csproj|ClientBin|False</SilverlightApplicationList>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
